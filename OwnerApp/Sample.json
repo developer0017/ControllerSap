@@ -1,0 +1,210 @@
+{
+    "_id" : "57030236c2e64a51eafd1244",
+    "serialNumber" : "1601041061",
+    "productName" : "Shark",
+    "model" : "Tiger",
+    "dealerId" : "101",
+    "oemId" : "oem00003",
+    "currentState" : {
+        "runMode" : "Rest",
+        "desiredTemp" : "100",
+        "targetDesiredTemp" : "100",
+        "currentTemp" : "97",
+        "filterCycle1Active" : false,
+        "filterCycle2Active" : false,
+        "errorCode" : 0,
+        "cleanupCycle" : false,
+        "messageSeverity" : 0,
+        "components" : [ {
+                        "componentType" : "PUMP",
+                        "port" : "0",
+                        "serialNumber" : "1016205*1601041064",
+                        "value" : "OFF",
+                        "targetValue" : "OFF",
+                        "availableValues" : [ "OFF", "LOW", "HIGH" ],
+                        "name" : "Jets",
+                        "_links" : {
+                        "1016205*1601041064" : {
+                        "href" : "http://localhost:8080/components/search/findBySerialNumber?serialNumber=1016205*1601041064"
+                        }
+                        }
+                        }, {
+                        "componentType" : "BLOWER",
+                        "port" : "0",
+                        "serialNumber" : "1601041065",
+                        "value" : "OFF",
+                        "targetValue" : "OFF",
+                        "availableValues" : [ "OFF", "LOW", "MED", "HIGH" ],
+                        "name" : "Bubbles",
+                        "_links" : {
+                        "1601041065" : {
+                        "href" : "http://localhost:8080/components/search/findBySerialNumber?serialNumber=1601041065"
+                        }
+                        }
+                        }, {
+                        "componentType" : "BLOWER",
+                        "port" : "1",
+                        "serialNumber" : "1601041066",
+                        "value" : "MED",
+                        "targetValue" : "MED",
+                        "availableValues" : [ "OFF", "LOW", "MED", "HIGH" ],
+                        "name" : "Bubbles",
+                        "_links" : {
+                        "1601041066" : {
+                        "href" : "http://localhost:8080/components/search/findBySerialNumber?serialNumber=1601041066"
+                        }
+                        }
+                        }, {
+                        "componentType" : "MISTER",
+                        "port" : "0",
+                        "serialNumber" : "1601041066",
+                        "value" : "ON",
+                        "targetValue" : "ON",
+                        "availableValues" : [ "OFF", "ON" ],
+                        "name" : "Mister",
+                        "_links" : {
+                        "1601041066" : {
+                        "href" : "http://localhost:8080/components/search/findBySerialNumber?serialNumber=1601041066"
+                        }
+                        }
+                        }, {
+                        "componentType" : "LIGHT",
+                        "port" : "0",
+                        "serialNumber" : "1601041067",
+                        "value" : "HIGH",
+                        "targetValue" : "HIGH",
+                        "availableValues" : [ "OFF", "LOW", "HIGH" ],
+                        "name" : "Main Light",
+                        "_links" : {
+                        "1601041067" : {
+                        "href" : "http://localhost:8080/components/search/findBySerialNumber?serialNumber=1601041067"
+                        }
+                        }
+                        }, {
+                        "componentType" : "LIGHT",
+                        "port" : "1",
+                        "serialNumber" : "1601041068",
+                        "value" : "LOW",
+                        "targetValue" : "HIGH",
+                        "availableValues" : [ "OFF", "LOW", "HIGH" ],
+                        "name" : "Main Light",
+                        "_links" : {
+                        "1601041068" : {
+                        "href" : "http://localhost:8080/components/search/findBySerialNumber?serialNumber=1601041067"
+                        }
+                        }
+                        }, {
+                        "componentType" : "PANEL",
+                        "port" : "0",
+                        "serialNumber" : "56549-1601041069",
+                        "value" : "Locked",
+                        "targetValue" : "Locked",
+                        "name" : "Controller Panel",
+                        "_links" : {
+                        "56549-1601041069" : {
+                        "href" : "http://localhost:8080/components/search/findBySerialNumber?serialNumber=56549-1601041069"
+                        }
+                        }
+                        }, {
+                        "componentType" : "GATEWAY",
+                        "port" : "0",
+                        "serialNumber" : "1601041062",
+                        "value" : "Connected",
+                        "targetValue" : "Connected",
+                        "name" : "IoT Gateway",
+                        "_links" : {
+                        "1601041062" : {
+                        "href" : "http://localhost:8080/components/search/findBySerialNumber?serialNumber=1601041062"
+                        }
+                        }
+                        }, {
+                        "componentType" : "MOTE",
+                        "port" : "0",
+                        "serialNumber" : "1601041063",
+                        "value" : "2.11555",
+                        "targetValue" : "2.11555",
+                        "name" : "Pump #1 Measurement",
+                        "_links" : {
+                        "1601041063" : {
+                        "href" : "http://localhost:8080/components/search/findBySerialNumber?serialNumber=1601041063"
+                        }
+                        }
+                        } ],
+        "measurements" : [ ],
+        "heaterMode" : 0,
+        "hour" : 0,
+        "minute" : 0,
+        "uiCode" : 0,
+        "uiSubCode" : 0,
+        "invert" : false,
+        "allSegsOn" : false,
+        "panelLock" : false,
+        "military" : false,
+        "celsius" : false,
+        "primingMode" : false,
+        "soundAlarm" : false,
+        "repeat" : false,
+        "swimSpaModeChanging" : false,
+        "heaterCooling" : false,
+        "latchingMessage" : false,
+        "demoMode" : false,
+        "timeNotSet" : false,
+        "lightCycle" : false,
+        "elapsedTimeDisplay" : false,
+        "tvLiftState" : 0,
+        "settingsLock" : false,
+        "spaOverheatDisabled" : false,
+        "specialTimeouts" : false,
+        "stirring" : false,
+        "ecoMode" : false,
+        "soakMode" : false,
+        "bluetoothStatus" : 0,
+        "overrangeEnabled" : false,
+        "heatExternallyDisabled" : false,
+        "testMode" : false,
+        "tempLock" : false,
+        "abdisplay" : false
+    },
+    "registrationDate" : "2016-04-05T00:09:26.081+0000",
+    "manufacturedDate" : "2016-04-05T00:09:26.081+0000",
+    "p2pAPSSID" : "myWifi",
+    "sold" : "true",
+    "owner" : {
+        "_id" : "57030236c2e64a51eafd1243",
+        "username" : "braitt",
+        "lastName" : "Raitt",
+        "firstName" : "Bonnie",
+        "phone" : "(800) 471-2382",
+        "email" : "braitt@riot.com",
+        "address" : {
+            "address1" : "300 035th Ave",
+            "address2" : "Suite 100",
+            "city" : "San Diego",
+            "state" : "CA",
+            "country" : "US",
+            "zip" : "E6L-4J4"
+        },
+        "roles" : [ "OWNER" ],
+        "createdDate" : "2016-04-05T00:09:26.079+0000",
+        "_links" : {
+            "self" : {
+                "href" : "http://localhost:8080/users/57030236c2e64a51eafd1243"
+            },
+            "address" : {
+                "href" : "http://localhost:8080/addresses/57030236c2e64a51eafd1242"
+            }
+        }
+    },
+    "_links" : {
+        "self" : {
+            "href" : "http://localhost:8080/spas/57030236c2e64a51eafd1244"
+        },
+        "spa" : {
+            "href" : "http://localhost:8080/spas/57030236c2e64a51eafd1244{?projection}",
+            "templated" : true
+        },
+        "owner" : {
+            "href" : "http://localhost:8080/users/57030236c2e64a51eafd1243"
+        }
+    }
+}

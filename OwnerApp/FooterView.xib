@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view alpha="0.80000000000000004" contentMode="scaleToFill" id="iN0-l3-epB" customClass="FooterView" customModule="OwnerApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+            <subviews>
+                <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZrV-nH-eLQ" userLabel="Controls">
+                    <rect key="frame" x="240" y="0.0" width="60" height="60"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="ButtonOffControl"/>
+                    <state key="selected" image="ButtonOnControl"/>
+                    <connections>
+                        <action selector="onClickFooterButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="qGB-SA-Xrr"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Qpi-NH-zZB" userLabel="Extras">
+                    <rect key="frame" x="290" y="0.0" width="60" height="60"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="ButtonOffExtras"/>
+                    <state key="selected" image="ButtonOnExtras"/>
+                    <connections>
+                        <action selector="onClickFooterButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="Z7L-Rd-2wT"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3Xh-98-m2a">
+                    <rect key="frame" x="55" y="51" width="100" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Controls" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kDH-eV-y4L">
+                    <rect key="frame" x="218" y="51" width="100" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Extras" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Im2-zy-7Xm">
+                    <rect key="frame" x="270" y="51" width="100" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8uM-hk-IG0" userLabel="Temp">
+                    <rect key="frame" x="75" y="0.0" width="60" height="60"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="ButtonOffTemp"/>
+                    <state key="selected" image="ButtonOnTemp"/>
+                    <connections>
+                        <action selector="onClickFooterButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="aAO-FR-c8L"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.086274509803921567" green="0.12549019607843137" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnControls" destination="ZrV-nH-eLQ" id="FRO-RJ-3Rm"/>
+                <outlet property="btnExtras" destination="Qpi-NH-zZB" id="s6A-VV-SBM"/>
+                <outlet property="btnTemp" destination="8uM-hk-IG0" id="Fg0-gw-CgA"/>
+                <outlet property="lblControls" destination="kDH-eV-y4L" id="ZH1-Fv-gsv"/>
+                <outlet property="lblExtras" destination="Im2-zy-7Xm" id="RtZ-EO-b8X"/>
+                <outlet property="lblTemp" destination="3Xh-98-m2a" id="vnD-DO-MrP"/>
+            </connections>
+            <point key="canvasLocation" x="259.5" y="335"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ButtonOffControl" width="36" height="36"/>
+        <image name="ButtonOffExtras" width="36" height="36"/>
+        <image name="ButtonOffTemp" width="36" height="36"/>
+        <image name="ButtonOnControl" width="36" height="36"/>
+        <image name="ButtonOnExtras" width="36" height="36"/>
+        <image name="ButtonOnTemp" width="36" height="36"/>
+    </resources>
+</document>

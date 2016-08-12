@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="SourceSansPro-Regular.ttf">
+            <string>SourceSansPro-Regular</string>
+        </mutableArray>
+        <mutableArray key="SourceSansPro-Semibold.ttf">
+            <string>SourceSansPro-Semibold</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchBackground" translatesAutoresizingMaskIntoConstraints="NO" id="J3R-kb-t1Q">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Byx-aF-Bm5">
+                                <rect key="frame" x="108" y="180" width="160" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="jVX-Bc-lQC"/>
+                                    <constraint firstAttribute="height" constant="90" id="vjT-ry-mfc"/>
+                                </constraints>
+                                <string key="text">OEM logo
+Spa Control App</string>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Balboa Water Group" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pjw-eq-ChU">
+                                <rect key="frame" x="108" y="616" width="160" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="pNg-Ir-LHU"/>
+                                    <constraint firstAttribute="width" constant="160" id="psm-ch-y7g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Semibold" family="Source Sans Pro" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="J3R-kb-t1Q" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="J5f-2r-hEn"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="J3R-kb-t1Q" secondAttribute="bottom" id="Lw5-QE-Ml2"/>
+                            <constraint firstAttribute="trailing" secondItem="J3R-kb-t1Q" secondAttribute="trailing" id="SBr-E1-IwT"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Pjw-eq-ChU" secondAttribute="bottom" constant="30" id="esr-uR-QRv"/>
+                            <constraint firstItem="Pjw-eq-ChU" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="iwB-z9-agd"/>
+                            <constraint firstItem="J3R-kb-t1Q" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="mFc-0y-r1i"/>
+                            <constraint firstItem="Byx-aF-Bm5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="n2X-MT-MSa"/>
+                            <constraint firstItem="Byx-aF-Bm5" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="160" id="vP8-53-o0c"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28" y="355"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchBackground" width="375" height="667"/>
+    </resources>
+</document>
